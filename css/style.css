@@ -637,6 +637,10 @@ header .navbar-nav .nav-item a:hover{
     .header .container .navbar{
         margin: 9px 10px;
     }
+    .ab-content .row .right-col {
+        width: 100%;
+    }
+
     
     
 }
