@@ -32,7 +32,8 @@ header {
     text-align: center;
 }
 .header .container .container-fluid{
-    margin: 16px 0;
+    margin: 16px auto;
+
 }
 .nav-fixed{
     padding: 0px;
