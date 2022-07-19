@@ -386,7 +386,20 @@
           </div>
           <div class="nutrition__popup">
             <img src="./image/banner2.jpg" alt="" class="img-fluid" />
-            <a href="#small-dialog"><i class="fa fa-play"></i></a>
+            <div class="MODAL" id="MODAL">
+              <div class="MODAL__backdrop"></div>
+              <div class="MODAL__content">
+                <div class="MODAL-top">
+                  <button type="button" class="btn-close" id="btn-close"></button>
+                </div>
+                <div class="MODAL-main text-center">
+                  <iframe src="https://player.vimeo.com/video/101587706"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="button text-center button-open">
+              <a href="#small-dialog" id="openModal"><i class="fa fa-play"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -664,6 +677,15 @@
       });
     </script>
     <!-- back to top js  -->
+    <!-- popup video -->
+    <script>
+      document.getElementById('openModal').onclick =function(){
+        document.getElementById('MODAL').style.visibility = 'visible';
+    }
+    document.getElementById('btn-close').onclick = function(){
+        document.getElementById('MODAL').style.visibility = 'hidden';
+    }
+    </script>
     <script src="./js/util.js"></script>
     <script src="./js/main.js"></script>
   </body>
