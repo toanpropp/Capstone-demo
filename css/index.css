@@ -796,6 +796,11 @@ a:hover{
         margin: 0 auto;
     }
 }
+.container-fluid{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+    
 
 @media screen and (max-width:1200px){
     .pooch-container{
@@ -995,6 +1000,13 @@ a:hover{
     .footer .links .item{
         margin-top: 3rem;
     }
+    .container{
+        padding: 0 5px;
+    }
+    .header .container .navbar{
+        margin: 9px 10px;
+    }
+    
     
 }
 

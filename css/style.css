@@ -43,13 +43,12 @@ p {
     z-index: 1030;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
+ 
+    /* width: 1200px; */
 }
 .container-fluid{
-    margin: 0 5px;
+    /* width: 1190px; */
+    margin: 0 auto;
 }
 .sub-title {
     font-size: 18px;
@@ -87,9 +86,7 @@ header {
     text-align: center;
     margin: 0 85px;
 }
-.header .container .container-fluid{
-    margin: 8px 0;
-}
+
 .nav-fixed{
     padding: 0px;
     background-color: #fff;
@@ -580,11 +577,19 @@ header .navbar-nav .nav-item a:hover{
         max-width: 1140px;
         margin: 0 auto;
     }
+    .container-fluid{
+        max-width: 1190px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:1200px){
     .pooch-container{
         max-width: 960px;
+        margin: 0 auto;
+    }
+    .container-fluid{
+        max-width: 1190px;
         margin: 0 auto;
     }
 }
@@ -623,8 +628,15 @@ header .navbar-nav .nav-item a:hover{
     .footer .links .item{
         margin-top: 3rem;
     }
+    .container{
+        padding: 0 5px;
+    }
+    .header .container .navbar{
+        margin: 9px 10px;
+    }
     
 }
+
 /* video after footer */
 .video{
     width: 100%;

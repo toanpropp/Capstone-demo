@@ -358,6 +358,11 @@ a:hover{
         padding: 0 15px;
     }
 }
+.container-fluid{
+    max-width: 1190px;
+    margin: 0 auto;
+
+}
 
 @media screen and (max-width:1200px){
     .pooch-container{
@@ -412,8 +417,15 @@ a:hover{
     .footer .links .item{
         margin-top: 3rem;
     }
-    
 }
+.container{
+    padding: 0 5px;
+}
+.header .container .navbar{
+    margin: 0px 10px;
+}
+    
+
 /* video after footer */
 .video{
     width: 100%;
