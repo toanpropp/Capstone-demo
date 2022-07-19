@@ -20,9 +20,16 @@ header {
     align-items: center;
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
 }
+.fixed{
+    background-color: #fff;
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 .header .container .navbar{
     text-align: center;
-    /* margin: 0 85px; */
 }
 .header .container .container-fluid{
     margin: 16px 0;
@@ -1208,7 +1215,7 @@ a:hover{
         padding: 0 5px;
     }
     .header .container .navbar{
-        margin: 9px 10px;
+        margin: 0 0;
     }
     
 }
