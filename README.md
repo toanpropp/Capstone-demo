@@ -7,3 +7,17 @@ or
       https://toanpropp.github.io/Capstone-demo/
       
 thanks for reading
+
+
+Lâm Tăng Minh Trí:      + Contact
+                        + Blog Post
+                        + Blog single
+                        + Landingpage
+                        + footer
+
+Phạm Thanh Toàn:        +About
+                        +services
+                        +Gallery
+                        +Header
+                        
+Both: Home
