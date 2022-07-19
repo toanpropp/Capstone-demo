@@ -602,6 +602,9 @@ header .navbar-nav .nav-item a:hover{
     .post-container{
         width: 100%;
     }
+    .ab-content .row .right-col {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -637,6 +640,8 @@ header .navbar-nav .nav-item a:hover{
     .ab-content .row .right-col {
         width: 100%;
     }
+
+    
     
 }
 
